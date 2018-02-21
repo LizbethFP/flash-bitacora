@@ -1,7 +1,6 @@
 // función para modal de materialize
 (function begin() {
   $('.modal').modal();
-
 })();
 
 $(document).ready(function() {
@@ -62,8 +61,6 @@ $(document).ready(function() {
   /* AGREGAR IMÁGENES */
   $('#img-modal').on('click', () => {
     $('#img-modal').addClass('waves-effect waves-light modal-trigger');
-
-  })
-
+  });
 });
 
