@@ -7,4 +7,4 @@
 
 ## L página deberá de verse como se muestra a continuacón
 ### Desktop
-![Responsive-Desktop](public/assets/docs/vista.JPG)
+![Responsive-Desktop](assets/docs/vista.JPG)
