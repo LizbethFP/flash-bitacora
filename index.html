@@ -20,28 +20,60 @@
      <title>Flash bitácora</title>
   </head>
   <body>
-    <header>.
-      <nav>
-
-      </nav>
-
+    <!-- estructura del header -->
+    <header class="nav-wrapper" id="nav-mobile">
+      <div class="container">
+        <div class="row">
+          <div class="col l12 center">
+            <h1>FLASH BITÁCORA</h1>
+            <span>"Publish anything, just in your browser"</span>
+          </div>
+        </div>
+      </div>
     </header>
-
+    <!-- estructura de la sección para agregar contenido -->
     <main>
       <section>
-          
+        <div class="container">
+          <div class="row">
+            <div class="col l12">
+              <div class="poster center">
+                <img class="card card-image" src="assets/images/image-publish.jpg" alt="">
+              </div>
+              <div id="publications" class="col l6 post"></div>
+            </div>
+          </div>
+        </div>
       </section>
-
     </main>
-
+    <!-- estructura para el modal-->
+    <section>
+      
+    </section>
+    <!-- estructura del footer  -->
     <footer>
-      <p class="text-center">Copyright&copy;</p>
-    </footer>
+      <div class="fixed-action-btn horizontal">
+        <a class="btn-floating btn-large red " >
+          <i id="btn-icon" class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+          <li>
+            <a id='message-modal' class="btn-floating red" href="#modal1"><i class="material-icons">chat</i></a>
+          </li>
+          <li><a id='img-modal' class="btn-floating yellow" href="#modal1"><i class="material-icons">perm_media</i></a>
+          </li>
+          <li><a id='video-modal' class="btn-floating blue" href="#modal1"><i class="material-icons">video_library</i></a>
+          </li>
+          <li><a id='date-modal' class="btn-floating green" href="#modal1"><i class="material-icons">today</i></a>
+          </li>
+        </ul>
+      </div>
+    </footer>    
 
     <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
     <!-- jQuery -->
-    <script type="text/javascript" src="../vendors/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="vendors/js/jquery-3.2.1.min.js"></script>
     <!-- JS de materialize -->
     <script src="vendors/materialize/js/materialize.min.js"></script>
     <!-- JS de proyecto -->
